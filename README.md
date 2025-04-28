@@ -31,7 +31,7 @@ RegisterNumber :  212223040201
 ```
 import pandas as pd
 import numpy as np
-df=pd.read_csv("Home/.../.../.../Placement_Data.csv")
+df=pd.read_csv("Placement_Data.csv")
 df
 df=df.drop('sl_no',axis=1)
 df=df.drop('salary',axis=1)
